@@ -1,12 +1,21 @@
+The Operations:
+   16 Moves: Add/Subtract/Multiply/Divide Left/Right/Up/Down. : Natural, except the 
+      extensions due to the airthmetic operations added, and the variables assigned.
+   Assignment: Assign << value >> to << x >>,<< y >>. : Setting a tile value.
+   Naming: Var << varname >> is << x >>,<< y >>. : Naming a tile. Each subsequent
+      move will move the name also to the destination of this tile according to merging and
+      stopping results. This may result in a tile getting several names.
+   Query: Value in << x >>,<< y >> : This value can be used in an assignment.
+   
+Game info:
 1)This code is written in Python.
-2)I have used lexing,parsing and then have down appropriate operations.
+2)I have used lexing,parsing and then have down appropriate operations.SLY library is used for lexing and parsing.
 3)Move into this folder location in terminal and run this on terminal.
 
 TO RUN:
    python3 main.py
 
 4)Please end with full stop to run successfully.
-5)All requirements of the assignment are fulfilled.
 6)To see the stderr output .
 
 RUN:
