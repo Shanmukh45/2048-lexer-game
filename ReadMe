@@ -1,0 +1,15 @@
+1)This code is written in Python.
+2)I have used lexing,parsing and then have down appropriate operations.
+3)Move into this folder location in terminal and run this on terminal.
+
+TO RUN:
+   python3 main.py
+
+4)Please end with full stop to run successfully.
+5)All requirements of the assignment are fulfilled.
+6)To see the stderr output .
+
+RUN:
+  python3 main.py 2>err.txt
+
+7)You can observe stderr in err.txt file.
